@@ -8,7 +8,7 @@
 
 $payload = json_decode(file_get_contents("php://input"));
 if (!$payload) {
-    exit("!No hay payload!");
+    exit("¡No hay payload!");
 }
 
 $captura = $payload->captura;
